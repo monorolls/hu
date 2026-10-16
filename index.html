@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>You're a Winner!</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monorolls/gsn@main/font.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body oncontextmenu="return false;">
+<div class="wrapper">
+  <div class="top-ribbon">
+    <div class="ribbon-dot"></div>
+    <div class="ribbon-dot"></div>
+  </div>
+
+  <div class="cover-wrap">
+    <img id="coverImg" alt="Giveaway Prize">
+  </div>
+
+  <div id="step1Content">
+    <p class="winner-announcement">
+      Congratulations! You're the selected winner of our Giveaway Prize. Click the button below to complete your winner verification and continue the registration process..
+    </p>
+    <button id="nextStepBtn"><span class="button-text">Next Step →</span></button>
+  </div>
+
+  <div id="step2Content">
+    <div class="divider">
+      <div class="divider-line"></div>
+      <div class="divider-label">Here's what to do next</div>
+      <div class="divider-line"></div>
+    </div>
+    <div class="steps">
+      <div class="step-row">
+        <div class="step-num">1</div>
+        <div><div class="step-body">Complete the task below to finalize your registration.</div></div>
+      </div>
+      <div class="step-row">
+        <div class="step-num">2</div>
+        <div><div class="step-body">Once you complete the task successfully, we'll contact you with the next steps regarding the prize.</div></div>
+      </div>
+      <div class="step-row">
+        <div class="step-num">3</div>
+        <div><div class="step-body">Please complete the task to claim your prize. Incomplete submissions may result in your registration being incomplete.</div></div>
+      </div>
+    </div>
+    <div id="offerContainer"></div>
+  </div>
+</div>
+
+<footer id="pageFooter">
+  <div class="footer-badge"></div>
+  <p>&copy; 2026 Rewards Verification Portal. All rights reserved.</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/script.js"></script>
+<script src="/scripto.js"></script>
+</body>
+</html>
